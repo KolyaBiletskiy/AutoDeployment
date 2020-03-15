@@ -8,9 +8,9 @@ print(mylist)
 oo = 3
 def test():
     if oo != 5:
-        print('not')
+        print('nsadasdsadot')
     if oo != 3:
-        print("122222222222222222222234")
+        print("122222sadsad222222222222222234")
     if oo != 4:
         print('ee22ee')
     else:
