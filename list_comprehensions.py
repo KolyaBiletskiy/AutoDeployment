@@ -12,7 +12,7 @@ def test():
     if oo != 3:
         print("three")
     if oo != 4:
-        print('four')
+        print('fou2r')
     else:
         print('else')
 
