@@ -8,13 +8,13 @@ print(mylist)
 oo = 3
 def test():
     if oo != 5:
-        print('fiveqqwqww')
+        print('11111')
     if oo != 3:
-        print("threeqqqq")
+        print("22222")
     if oo != 4:
-        print('fou2rqwqw')
+        print('33333')
     else:
-        print('elseqwqwqw')
+        print('444444')
 
 
 test()
