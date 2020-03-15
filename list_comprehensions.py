@@ -10,7 +10,7 @@ def test():
     if oo != 5:
         print('not')
     if oo != 3:
-        print("1234")
+        print("122222222222222222222234")
     if oo != 4:
         print('ee22ee')
     else:
