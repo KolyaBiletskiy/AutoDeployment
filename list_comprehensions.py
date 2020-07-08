@@ -1,20 +1,29 @@
 
+import random
 
 mylist = [x**2 for x in range(10)]
 
 print(mylist)
 
+a = ['aa', 'bb', 'ab']
 
-oo = 3
-def test():
-    if oo != 5:
-        print('DSADA')
-    if oo != 3:
-        print("DSAD")
-    if oo != 4:
-        print('ASDASD')
-    else:
-        print('SADASD')
+#return strings that starts from "a"
+
+b = [w for w in a if w[0] == "a"]
+
+print(b)
+
+temps = [221,230,245,255]
 
 
-test()
+lc = [item/10 for item in temps if item != 255]
+
+print(lc)
+
+
+
+c = ['1','1','3']
+a = sum(map(int, c))
+
+print(a)
+
