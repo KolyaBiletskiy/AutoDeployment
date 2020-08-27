@@ -23,7 +23,7 @@ print(lc)
 
 
 c = ['1','1','3']
-a = sum(map(int, c))
+a = list(map(int, c))
 
 print(a)
 

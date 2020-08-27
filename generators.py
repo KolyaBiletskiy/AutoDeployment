@@ -1,4 +1,4 @@
-
+from OOP import inheritance
 
 
 

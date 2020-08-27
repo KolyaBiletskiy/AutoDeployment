@@ -34,7 +34,7 @@ Dog().who_am_i()
 
 
 class Base:
-    def a(self):
+    def __init__(self):
         print("Base_a")
 
 class Inherited(Base):
@@ -48,7 +48,22 @@ obj = Inherited()
 
 obj.a()
 
-Base.a(obj)
+# Base.a(obj)
+
+
+class Mammal:
+    def __init__(self, dog):
+        print(dog, 'is a friend')
+
+
+class Dog(Mammal):
+    def __init__(self):
+        print('Dog has four legs.')
+        super().__init__('Dog')
+        # Mammal('dog')
+
+
+d1 = Dog()
 
 
 

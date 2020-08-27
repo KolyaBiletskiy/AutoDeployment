@@ -67,3 +67,28 @@ bobus = Cat("Bobus")
 
 print(bagi.speak())
 print(bobus.speak())
+
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("Hello my name is", self.name)
+
+class Enemy(Person):
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+
+    def introduce(self):
+        print("Hello my name is ", self.name)
+
+Nick = Person('Nick')
+Nick.introduce()
+
+Enemy = Enemy("Enemy")
+Enemy.introduce()
+
+
+

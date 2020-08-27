@@ -1,6 +1,5 @@
 
 
-
 user_input = input("Enter your name:")
 
 # 1 , py2
